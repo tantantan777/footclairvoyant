@@ -6,7 +6,7 @@
 
 ## 项目简介
 
-**足球先知** 是一个面向足球爱好者、数据分析师和竞彩玩家的智能平台。系统自动爬取全球主流足球赛事数据，结合深度学习大模型（DeepSeek Reasoner/Chat），为用户提供专业的赛果预测、数据分析和交互式AI问答体验。
+**足球先知** 是一个通过爬取原网站数据，并将数据存储在json文件里面，通过AI对话框结合深度学习大模型（DeepSeek Reasoner/Chat），为用户提供专业的赛果预测、数据分析和交互式AI问答体验。
 
 - **前端**：Vue 3 + Element Plus，响应式美观界面
 - **后端**：Node.js + Express，Socket.io 实时通信
@@ -58,9 +58,6 @@ cd backend
 npm install
 # 如需爬虫，建议安装 Playwright 浏览器
 npm run install-browsers
-# 配置环境变量
-cp .env.example .env
-# 编辑 .env，填写 DeepSeek API Key
 ```
 
 #### 3. 安装前端依赖
@@ -133,7 +130,7 @@ footclairvoyant/
 ## 常见问题 FAQ
 
 - **Q: 启动后无比赛数据？**  
-  A: 首次启动需等待数据爬取，几分钟后刷新页面，或手动点击"爬取比赛"按钮。
+  A: 首次启动需点击“爬取比赛”等待数据爬取，通过web广播实时前端更新。
 
 - **Q: AI回复慢或无响应？**  
   A: 受限于 DeepSeek API 速度和网络状况，通常几秒内响应。若长时间无响应，请检查API Key和网络。
@@ -151,14 +148,5 @@ footclairvoyant/
 - 欢迎提交PR、Issue，完善功能与数据源
 - 本项目遵循 MIT 许可证
 
----
-
-## 联系方式
-
-- 作者/维护者：`<你的名字或团队>`
-- 邮箱：`<your-email@example.com>`
-- 项目主页：`<your-repo-url>`
-
----
 
 > 专业、智能、开放 —— 足球先知，助你洞察每一场比赛！ 
