@@ -1,0 +1,38 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 环境变量
+.env
+.env.*
+
+# 日志文件
+logs/
+*.log
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 前端构建输出
+dist/
+build/
+
+# VSCode设置
+.vscode/
+
+# 后端数据缓存
+backend/match_json/
+backend/LOGOS/
+
+# 其他临时文件
+*.swp
+*.swo
+
+# Excel导出缓存
+*.xlsx
+
+# 运行脚本临时文件
+*.bat~ 

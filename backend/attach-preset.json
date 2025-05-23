@@ -1,0 +1,39 @@
+{
+  "basicInfo": [
+    "homeTeam",
+    "awayTeam",
+    "league",
+    "matchTime",
+    "venue",
+    "weather",
+    "temperature",
+    "homeRank",
+    "homePoints",
+    "awayRank",
+    "awayPoints"
+  ],
+  "europeInitial": [
+    "中国竞彩官方",
+    "中国竞彩官方（让球-1玩法）",
+    "Bet365（英国）",
+    "澳门",
+    "香港马会（中国香港）",
+    "威廉希尔（英国）"
+  ],
+  "europeLive": [
+    "中国竞彩官方",
+    "中国竞彩官方（让球-1玩法）",
+    "Bet365（英国）",
+    "香港马会（中国香港）",
+    "澳门",
+    "威廉希尔（英国）"
+  ],
+  "asiaHandicap": [
+    "澳门",
+    "皇冠",
+    "Bet365（英国）",
+    "易胜博（安提瓜和巴布达）",
+    "伟德（直布罗陀）",
+    "明升（菲律宾）"
+  ]
+}

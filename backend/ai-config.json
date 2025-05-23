@@ -1,0 +1,13 @@
+{
+  "apiKey": "sk-b3745051250941f499237dd45716d3c0",
+  "agent": {
+    "emoji": "⚽",
+    "name": "中国竞彩足球专业预测模型V8.1终极版",
+    "prompt": "根据我发给你的问题以及比赛数据，根据数据预测结果。给出预测过程和预测结果，预测结果包含：输赢、比分。"
+  },
+  "model": {
+    "name": "deepseek-reasoner",
+    "maxLength": 8192,
+    "contextLength": 65536
+  }
+}
